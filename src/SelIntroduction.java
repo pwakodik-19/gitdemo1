@@ -14,6 +14,8 @@ public class SelIntroduction {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
+		driver.quit();
+		
 
 	}
 
